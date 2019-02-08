@@ -1,0 +1,75 @@
+ul {
+  list-style-type: none;
+  margin: -10px -10px -.5px -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("ILYBIJFA.jpg");
+  height: 100%;
+}
+
+.poem{
+  width:350px;
+  height:250px;
+  overflow:scroll;
+  padding:5px;
+  background-color: #111;
+  color: #fff;
+  border:4px double white;
+}
+.poem-center{
+  width:350px;
+  height:250px;
+  overflow:scroll;
+  padding:5px;
+  /*position: absolute;
+  text-align: center;*/
+  background-color: #111;
+  color: #fff;
+  border:4px double white;
+}
+
+h3 {
+  font: 20px "Lato", sans-serif;
+  color: white;
+}
