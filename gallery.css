@@ -70,6 +70,8 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    height: 600px;
+    align: middle;
 }
 
 div.gallery:hover {
