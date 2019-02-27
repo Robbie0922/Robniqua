@@ -98,3 +98,15 @@ div.desc {
   content: "";
   display: block;
 }
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  /*opacity: 0.65;*/
+  background-position: center;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img/forget.jpg");
+  width: 100%;
+}
